@@ -1,0 +1,6 @@
+#Paste you gemini API keys here 
+from googleapiclient.discovery import build 
+import openai
+
+api_key = "AIzaSyDgh08gqrts7wdB_ZPyqOJruQ0E-P5TmUM"
+service = build('generativelanguage','v1beta2',developerkey=api_key)
